@@ -28,8 +28,8 @@ Think `airbnb.io`, `netflix.github.io`, `linkedin.github.io`, `shopify.github.io
 ## Hard constraints — do not violate
 
 - **No duplicate of `finaegis.org` or `aegisbrightsmark.com`.** If a section starts feeling like a company pitch, it's in the wrong place — link to the corporate site instead.
-- **No external script/font/CSS CDNs.** Inline the CSS. System font stack. Keeps load fast and the privacy story clean.
-- **No analytics yet.** If we add it later, disclose on the page.
+- **No external script/font/CSS CDNs**, with one exception: Google Analytics `gtag.js` loader (see Analytics below). System font stack. CSS inlined.
+- **Analytics: Google Analytics (GA4), measurement ID `G-MX6YQNEXJ0`.** Disclosed in the page footer. If analytics is added, removed, or replaced, update the footer disclosure in the same change. No consent banner yet — if we start needing GDPR-compliant consent (EU regulator attention, legal review), layer Consent Mode v2 or a banner on top rather than removing GA.
 - **No JavaScript frameworks.** Vanilla only. This site exists to list repos and link to them; shipping React for that is a waste.
 - **Public repos only.** Never list private FinAegis repos. Tiles must link to live, public GitHub URLs.
 
