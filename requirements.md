@@ -61,11 +61,13 @@ Grid of tiles. Responsive (3 columns → 2 → 1). Each tile is a clickable card
 
 | Order | Repo | Live link | Status | Notes |
 |---|---|---|---|---|
-| 1 | [FinAegis/core-banking-prototype-laravel](https://github.com/FinAegis/core-banking-prototype-laravel) | — | `Active` | 160★. DDD/CQRS/event-sourced. The flagship. |
+| 1 | [FinAegis/core-banking-prototype-laravel](https://github.com/FinAegis/core-banking-prototype-laravel) | <https://finaegis.org> | `Active` | 160★. DDD/CQRS/event-sourced. The flagship — `finaegis.org` is the live production deployment of this codebase. |
 | 2 | [FinAegis/defluff](https://github.com/FinAegis/defluff) | <https://finaegis.github.io/defluff/> | `Active` | Browser extension + Outlook add-in. MIT. |
-| 3 | [FinAegis/cli](https://github.com/FinAegis/cli) | — | `Active` | Zelta CLI. Auto-synced mirror — note that in the tile. |
-| 4 | [FinAegis/php-sdk](https://github.com/FinAegis/php-sdk) | — | `Active` | FinAegis PHP SDK. Mirror. |
-| 5 | [FinAegis/payment-sdk](https://github.com/FinAegis/payment-sdk) | — | `Active` | Zelta Payment SDK. Mirror. |
+| 3 | [FinAegis/cli](https://github.com/FinAegis/cli) | <https://packagist.org/packages/finaegis/cli> | `Active` | Zelta CLI. Auto-synced mirror — note that in the tile. |
+| 4 | [FinAegis/php-sdk](https://github.com/FinAegis/php-sdk) | <https://packagist.org/packages/finaegis/php-sdk> | `Active` | FinAegis PHP SDK. Mirror. |
+| 5 | [FinAegis/payment-sdk](https://github.com/FinAegis/payment-sdk) | <https://packagist.org/packages/finaegis/payment-sdk> | `Active` | Zelta Payment SDK. Mirror. |
+
+**Rule for the "Live link" column** — the canonical hosted/published artifact for this repo. In priority order: (1) a hosted demo of the code (e.g. Defluff's GH-Pages site); (2) the production deployment of the OSS code (e.g. `finaegis.org` running the flagship); (3) the package registry page for published libraries (Packagist, npm). Omit if none applies. Link label mirrors the target: `Live` for hosted output/production, `Packagist`/`npm` for registry.
 
 **Skip `FinAegis/.github`** — that's the org profile repo, not a project.
 
