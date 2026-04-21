@@ -1,0 +1,20 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local preview artifacts
+*.log
+
+# Dotenv (unused but defensive — this is a static site)
+.env
+.env.local
+
+# Serena
+.serena/
+
+# Node (in case anyone ever adds a build step and forgets)
+node_modules/
