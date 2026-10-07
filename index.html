@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FinAegis · Open Source</title>
-  <meta name="description" content="Open-source work by the team behind finaegis.org — banking infrastructure, AI tools, and developer SDKs.">
+  <meta name="description" content="Open-source work by the team behind finaegis.org — core banking software, AI tools, and developer SDKs.">
   <meta property="og:title" content="FinAegis · Open Source">
-  <meta property="og:description" content="Open-source work by the team behind finaegis.org — banking infrastructure, AI tools, and developer SDKs.">
+  <meta property="og:description" content="Open-source work by the team behind finaegis.org — core banking software, AI tools, and developer SDKs.">
   <meta property="og:url" content="https://finaegis.github.io/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
@@ -329,6 +329,7 @@
     footer.site nav { display: flex; gap: 16px; flex-wrap: wrap; }
     footer.site nav a { color: var(--muted); }
     footer.site nav a:hover { color: var(--accent); }
+    footer.site .footer-note { margin: 12px 0 0; }
   </style>
 </head>
 <body>
@@ -363,7 +364,7 @@
 
   <main>
     <section class="intro container">
-      <p>Banking infrastructure, AI tools, and developer SDKs. Everything in this index is open-source and welcomes PRs; commercial support flows through <a href="https://finaegis.org">finaegis.org</a>.</p>
+      <p>Open-source core banking software, AI tools, and developer SDKs. Everything in this index is open-source and welcomes PRs; commercial support flows through <a href="https://finaegis.org">finaegis.org</a>.</p>
     </section>
 
     <section class="projects container" id="projects" aria-label="Projects">
@@ -382,7 +383,7 @@
             <span class="tag">banking</span><span class="tag">fintech</span><span class="tag">event-sourced</span><span class="tag">ddd</span><span class="tag">cqrs</span>
           </div>
           <div class="tile-footer">
-            <a class="tile-link" href="https://finaegis.org">Live</a>
+            <a class="tile-link" href="https://finaegis.org">Demo</a>
             <div class="install"><code>gh repo clone FinAegis/core-banking-prototype-laravel</code></div>
           </div>
         </article>
@@ -479,6 +480,7 @@
         </a>
       </div>
     </div>
+    <p class="container footer-note">FinAegis is open-source software. Using it does not make a deployment compliant. Licensing and regulatory compliance are the responsibility of the operator of each deployment. Nothing here is legal advice.</p>
   </footer>
 </body>
 </html>
